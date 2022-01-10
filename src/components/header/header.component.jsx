@@ -20,7 +20,7 @@ function Header({ currentUser }) {
           CONTACT
         </Link>
         {currentUser ? (
-          <div class="option" onClick={() => auth.signOut()}>
+          <div className="option" onClick={() => auth.signOut()}>
             SIGN OUT
           </div>
         ) : (
