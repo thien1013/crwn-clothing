@@ -22,9 +22,6 @@ function Header({ currentUser, hidden, signOutStart }) {
         <Link className="option" to="/shop">
           SHOP
         </Link>
-        <Link className="option" to="/shop">
-          CONTACT
-        </Link>
         {currentUser ? (
           <div className="option" onClick={signOutStart}>
             SIGN OUT
